@@ -15,8 +15,8 @@ namespace: build-service
 
 images:
 - name: quay.io/redhat-appstudio/build-service
-  newName: quay.io/redhat-appstudio/build-service
-  newTag: 7069c7708a122ad24eabfe67b650e9065ebff942
+  newName: quay.io/mmorhun/build-operator
+  newTag: next
 
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
