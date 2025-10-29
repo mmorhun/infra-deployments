@@ -16,12 +16,12 @@ valuesInline:
     create: true
     name: loki-sa
     annotations:
-      eks.amazonaws.com/role-arn: "arn:aws:iam::440744259338:role/stone-prd-rh02-loki-storage-role"
+      eks.amazonaws.com/role-arn: "arn:aws:iam::440744259338:role/kflux-prd-rh02-loki-storage-role"
   loki:
     storage:
       bucketNames:
-        chunks: stone-prd-rh02-loki-storage
-        admin: stone-prd-rh02-loki-storage
+        chunks: kflux-prd-rh02-loki-storage
+        admin: kflux-prd-rh02-loki-storage
     storage_config:
       aws:
-        bucketnames: stone-prd-rh02-loki-storage
+        bucketnames: kflux-prd-rh02-loki-storage
